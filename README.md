@@ -10,7 +10,7 @@ to be stored in the database.
 
 ## Data Design
 
-The database layout is simple, and illustrates a common relationship. The the database there are 3 tables: (1) `Users` (2)
+The database layout is simple, and illustrates a common relationship. The database there are 3 tables: (1) `Users` (2)
 `Groups` and (3) `UsersToGroups`. `Groups` and `Users` have a many-to-many relationship. This many-to-many relationship
 also exists in the *Rust* application where a `User` has a `Vec<Group>`.
 
